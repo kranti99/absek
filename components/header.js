@@ -26,7 +26,7 @@ const Header = () => {
             
             <link rel="stylesheet" href="css/flaticon.css" />
             <link rel="stylesheet" href="css/icomoon.css" />
-            <link rel="stylesheet" href="css/style.css"  rel="stylesheet" key="test"/>
+            <link rel="stylesheet" href="css/style.css"/>
         </Head>
      );
 }
