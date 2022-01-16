@@ -58,14 +58,14 @@ const Footer = () => {
               </div>
             </div>
           </footer>
-          <div id="ftco-loader" className="show fullscreen">
+          {/* <div id="ftco-loader" className="show fullscreen">
             <svg className="circular" width="48px" height="48px">
               <circle className="path-bg" cx={24} cy={24} r={22} fill="none" strokeWidth={4} stroke="#eeeeee" />
               <circle className="path" cx={24} cy={24} r={22} fill="none" strokeWidth={4} strokeMiterlimit={10} stroke="#F96D00" />
             </svg>
-          </div>
-          {/* <Script src="js/jquery.min.js"></Script>
-          <Script src="js/jquery-migrate-3.0.1.min.js"></Script>
+          </div> */}           
+           <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
+           <Script src="js/jquery-migrate-3.0.1.min.js"></Script>
           <Script src="js/popper.min.js"></Script>
           <Script src="js/bootstrap.min.js"></Script>
           <Script src="js/jquery.easing.1.3.js"></Script>
@@ -76,7 +76,7 @@ const Footer = () => {
           <Script src="js/aos.js"></Script>
           <Script src="js/jquery.animateNumber.min.js"></Script>
           <Script src="js/scrollax.min.js" ></Script>
-          <Script src="js/main.js" ></Script> */}
+          <Script src="js/main.js" ></Script>
     </>
         
      );

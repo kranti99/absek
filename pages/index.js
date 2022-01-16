@@ -5,6 +5,8 @@ import Header from  '../components/header.js'
 import Footer from  '../components/footer.js'
 import Link from 'next/link'
 
+
+
 export default function Home() {
   return (
     <div><Header />	  
@@ -397,8 +399,10 @@ export default function Home() {
       </div>
     </div>
   </section>
-
+ 
    		<Footer />
+    
+     
 </div>
   )
 }
