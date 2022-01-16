@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -15,19 +14,20 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
 
-          <Script src="js/jquery.min.js"></Script>
-          <Script src="js/jquery-migrate-3.0.1.min.js"></Script>
-          <Script src="js/popper.min.js"></Script>
-          <Script src="js/bootstrap.min.js"></Script>
-          <Script src="js/jquery.easing.1.3.js"></Script>
-          <Script src="js/jquery.waypoints.min.js"></Script>
-          <Script src="js/jquery.stellar.min.js"></Script>
-          <Script src="js/owl.carousel.min.js"></Script>
-          <Script src="js/jquery.magnific-popup.min.js"></Script>
-          <Script src="js/aos.js"></Script>
-          <Script src="js/jquery.animateNumber.min.js"></Script>
-          <Script src="js/scrollax.min.js" ></Script>
-          <Script src="js/main.js" ></Script>
+          <script src="js/jquery.min.js"></script>
+          <script src="js/jquery-migrate-3.0.1.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/jquery.easing.1.3.js"></script>
+          <script src="js/jquery.waypoints.min.js"></script>
+          <script src="js/jquery.stellar.min.js"></script>
+          <script src="js/owl.carousel.min.js"></script>
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          <script src="js/aos.js"></script>
+          <script src="js/jquery.animateNumber.min.js"></script>
+          <script src="js/scrollax.min.js" ></script>
+          <script src="js/main.js" ></script>
+
         </body>
       </Html>
     )

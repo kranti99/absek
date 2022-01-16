@@ -20,7 +20,7 @@ const About = () => {
               <a href="index.html">
                 Home <i className="ion-ios-arrow-forward" />
               </a>
-            </span>{" "}
+            </span>
             <span>
               About us <i className="ion-ios-arrow-forward" />
             </span>
@@ -243,7 +243,7 @@ const About = () => {
       <div className="row justify-content-center">
         <div className="col-md-10 text-center">
           <h2 className="mb-0 font-primary">
-            We've done work of
+            We have done work of
             <span className="number" data-number={300}>
               0
             </span>
