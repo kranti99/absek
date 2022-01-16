@@ -104,8 +104,8 @@ const Contact = () => {
             </div>
             <div className="form-group">
               <textarea
-                name
-                id
+                name ="textarea"
+                id =""
                 cols={30}
                 rows={7}
                 className="form-control"

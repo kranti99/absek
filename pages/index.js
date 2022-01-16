@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from  '../components/header.js'
 import Footer from  '../components/footer.js'
 import Link from 'next/link'
+import Script from 'next/script'
 
 
 
@@ -11,47 +12,7 @@ export default function Home() {
   return (
     <div><Header />	  
 		
-  <nav
-    className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
-    id="ftco-navbar"
-  >
-    <div className="container">
-      <a className="navbar-brand" href="index.html">
-        Evans
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#ftco-nav"
-        aria-controls="ftco-nav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="oi oi-menu" /> Menu
-      </button>
-      <div className="collapse navbar-collapse" id="ftco-nav">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link href="/about"><a className="nav-link">
-              About
-            </a></Link>
-          </li>
-          <li className="nav-item">
-            <a href="work.html" className="nav-link">
-              Work
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="contact.html" className="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  {/* END nav */}
+  
   <section id="home-section" className="hero">
     <h1 className="vr text-center">Evans</h1>
     <div className="js-fullheight home-wrap d-flex">
@@ -399,7 +360,20 @@ export default function Home() {
       </div>
     </div>
   </section>
- 
+  <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
+           <Script src="js/jquery-migrate-3.0.1.min.js"></Script>
+          <Script src="js/popper.min.js"></Script>
+          <Script src="js/bootstrap.min.js"></Script>
+          <Script src="js/jquery.easing.1.3.js"></Script>
+          <Script src="js/jquery.waypoints.min.js"></Script>
+          <Script src="js/jquery.stellar.min.js"></Script>
+          <Script src="js/owl.carousel.min.js"></Script>
+          <Script src="js/jquery.magnific-popup.min.js"></Script>
+          <Script src="js/aos.js"></Script>
+          <Script src="js/jquery.animateNumber.min.js"></Script>
+          <Script src="js/scrollax.min.js" ></Script>
+          <Script src="js/main.js" ></Script>
+
    		<Footer />
     
      
